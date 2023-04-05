@@ -2,9 +2,22 @@
   // replace this with your code
   background: #ffffff;
   border-radius: 10px;
+  justify-content: space-evenly;
+  box-shadow: 0px 4px 4px #d3e1da;
   width: 267px;
   height: 310px;
   border: 1px solid white;
+  flex-direction: column;
+  
+}
+.random {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 19px 23px 27px 26px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px #d3e1da;
+  border-radius: 10px;
 }
 .Long-Term {
   font-family: 'Montserrat';
@@ -19,6 +32,13 @@
   font-size: 16px;
   word-wrap: break-word;
   font-style: normal;
+}
+.text {
+  color: black;
+  margin-bottom: 40px;
+  font-style: normal;
+  font-size: 16px;
+  word-wrap: break-word;
 }
 .five_year {
   font-family: 'Montserrat';
